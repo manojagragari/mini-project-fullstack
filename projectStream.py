@@ -5,20 +5,6 @@ v,a,k=0,0,0
 x=st.text_input("Enter your name")
 if st.button("Submit"):
     st.write(f"Hello, {x}!")
-
-# qs1=st.radio("Choose your learning style:", ("Visual", "Auditory", "Kinesthetic","None"),index=None)
-# if qs1=="Visual":
-#       v+=1
-# elif qs1=="Auditory":
-#         a+=1    
-# elif qs1=="Kinesthetic":
-#           k+=1
-# else:
-#     pass
-# if st.button("get result"):
-#       st.success(f"Your learning style is: {v/30*100}% Visual, {a/30*100}% Auditory, S{k/30*100}% Kinesthetic")
-#streamlit run first.py
-#pip install streamlit
 questions = [
     {
         "q_no": 1,

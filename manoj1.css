@@ -1,0 +1,81 @@
+body{
+    background-image: url("downloadt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width:99%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+}
+a:link{
+    color:whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    color:whitesmoke;
+}
+.body{
+    width: 40%;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+.heading{
+    font-size: 45px;
+}
+input{
+    width:98%;
+    border:none;
+    height:30px;
+    margin:2px;
+    border-radius: 7px;
+    opacity: 0.4;
+}
+label{
+    font-size: large;
+}
+form{
+    text-align: right;
+}
+button{
+    background-color: #ffbd59;
+    color:whitesmoke;
+    border:none;
+    font-size: larger;
+    width:30%;
+    border-radius: 15px;
+    padding:10px;
+    
+    
+}
+div{
+    margin:5px;
+    padding:5px;
+}
+.otherop{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+    border:none;
+    /* margin-left: 50px; */
+    width:30%;
+    border: 2px solid white;
+}
+.otherop1{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+    border:none;
+    margin-left:60px;
+    width:30%;
+    border: 2px solid white;
+}

@@ -3,6 +3,6 @@ function changeImage() {
     if(image.src.match("download.png")){
         image.src="download4.jpg";
     }else{
-        image.src="download.png";
+        image.src="download1.jpg";
     }
 }

@@ -327,9 +327,9 @@ if st.button("📊 Get Result"):
 
         st.success(f"Hello {name} 👋 Here is your learning style result:")
 
-        st.write(f"👀 **Visual:** {v/total*100:.2f}%")
-        st.write(f"👂 **Auditory:** {a/total*100:.2f}%")
-        st.write(f"🤸 **Kinesthetic:** {k/total*100:.2f}%")
+        st.write(f" **Visual:** {v/total*100:.2f}%")
+        st.write(f" **Auditory:** {a/total*100:.2f}%")
+        st.write(f"gg **Kinesthetic:** {k/total*100:.2f}%")
 
         # Final dominant style
         if v > a and v > k:
